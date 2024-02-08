@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P-23</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a id="logo" href="index.html">Главная</a>
+            <nav id="mainnav">
+                <ul>
+                    <li><a href="umeni.html">Мои навыки</a></li>
+                    <li><a href="raboti.html">Мои работы</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <div class="info1">
+            <h1 class="i"><a href="https://vk.com/andrey16000" target="_blank" class="i2">Создатель данного сайта</a></h1>
+            <p class="text">Я программист верстальщик, учусь на 2 курсе СПО, мои навыки и работы вы можете посмотреть в навигации. Или нажать на слово "<a href="umeni.html" class="i2">навыки</a>" и "<a href="#" class="i2">работы</a>"</p>
+        </div>
+        <div class="info2">
+            <h1 class="i1">Связаться со мной можно написав мне в <a href="https://vk.com/andrey16000" class="i2" target="_blank">ВК</a> или через <a href="#forma" class="i2">форму</a></h1>
+        </div>
+        <div class="forms" id="forma">
+            <form action="https://formsubmit.co/rabota_giramon@mail.ru" method="POST" enctype="multipart/form-data">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://giramon.github.io/rabota/index.html">
+                <h2>Форма обратной связи</h2>
+                <div class="form">
+                    <p class="tex">Фото макета</p>
+                    <input type="file" name="maket photo" accept="image/png, image/jpeg">
+                </div>
+                <div class="form">
+                    <p class="tex">Техническое задание</p>
+                    <textarea class="tex" name="teh zadan" required id="teh_zadan" cols="30" rows="10" placeholder="Введите техническое задание"></textarea>
+                </div>
+                <div class="form">
+                    <p class="tex">Ссылка на макет</p>
+                    <input type="name" name="figma">
+                </div>
+                <div class="form">
+                    <p class="tex">До какого числа нужно сделать</p>
+                    <input type="date" name="do kakogo" required>
+                </div>
+                <div class="form">
+                    <p class="tex">Номер телефона</p>
+                    <input type="number" name="telephone" placeholder="Введите ваш номер">
+                </div>
+                <div class="form">
+                    <p class="tex">Ваши контакты в социальных сетях</p>
+                    <textarea class="tex" name="contacts" required id="sviaz" cols="30" rows="10" placeholder="Введите ваши социальные сети"></textarea>
+                </div>
+                <div class="form">
+                    <button class="bt" type="submit">Отправить</button>
+                </div>
+           </form>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
