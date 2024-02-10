@@ -145,7 +145,7 @@ textarea {
 }
 .flex-container {
     display: flex;
-    width: 1000px;
+    width: 1040px;
     height: 400px;
     margin-top: 50px;
     text-align: center;
@@ -257,11 +257,33 @@ main{
     font-size: 24px;
     float: right;
 }
+#searchbar {
+    border-radius: 20px;
+    border: 2px solid white;
+    padding-left: 15px;
+    display: flex;
+    margin: 0 auto; 
+    margin-top: 50px;
+    width: 240px;
+    height: 50px; 
+}
+.text12 {
+    display: block;
+    font-size: 24px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    list-style: none;
+    margin-bottom: 200px;
+}
+.text1 {
+    margin-top: 50px;
+}
 .dropdown_menu {
     display: none;
     position: absolute;
     left: 2rem;
-    top: 80px;
+    top: 50px;
     height: 0;
     margin-left: -50px;
     width: 300px;
@@ -275,7 +297,7 @@ main{
     height: 200px;
 }
 .dropdown_menu li {
-    padding: 0.7rem;
+    padding: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -284,35 +306,49 @@ main{
     .litop {
         display: none;
     }
+    #logo {
+        margin-top: -20px;
+    }
     .text2 {
-        margin-left: 100px;
+        margin-left: 0px;
+    }
+    .i {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 28px;
     }
     header {
         width: 90%;
+        height: 50px;
     }
     main {
+        margin-top: 90px;
         font-size: 10px;
         margin-left: 0px;
-        width: 325px;
+        width: 430px;
     }
     #toggle_btn {
         display: block;
-        margin-top: 40px;
+        margin-top: 20px;
         margin-left: 0px;
         margin-right: 50px;
     }
-    .i {
-        margin-left: 80px;
-    }
     .flex-container {
-        width: 800px;
+        width: 400px;
+        margin: 0 auto;
+    }
+    .ume {
+        font-size: 24px;
     }
     .flex-elem {
-        font-size: 18px;
+        font-size: 20px;
+        padding-top: 10px;
     }
     .text1 {
-        margin-left: 80px;
-        width: 600px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+        width: 400px;
         text-align: center;
     }
     .info2 {
@@ -327,12 +363,17 @@ main{
     body {
         background: none;
         background-color: rgb(191,82,144);
+        font-size: 20px;
+    }
+    .text12 {
+        margin-bottom: 200px;
+        font-size: 24px;
+        color: white;
     }
     .info1 {
         margin-top: 150px;
         margin: 0 auto;
-        margin-left: -60px;
         text-align: center;
-        width: 350px;
+        width: 400px;
     }
 }
