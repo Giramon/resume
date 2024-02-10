@@ -350,6 +350,7 @@ main{
     .flex-elem {
         font-size: 20px;
         padding-top: 10px;
+        height: 415px;
     }
     .text1 {
         margin: 0 auto;
