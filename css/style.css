@@ -309,6 +309,10 @@ main{
     #logo {
         margin-top: -20px;
     }
+    .info3 {
+        width: 350px;
+        font-size: 22px;
+    }
     .text2 {
         margin-left: 0px;
     }
@@ -325,7 +329,7 @@ main{
     main {
         margin-top: 90px;
         font-size: 10px;
-        margin-left: 0px;
+        margin-left: -5px;
         width: 430px;
     }
     #toggle_btn {
@@ -335,8 +339,9 @@ main{
         margin-right: 50px;
     }
     .flex-container {
-        width: 400px;
+        width: 350px;
         margin: 0 auto;
+        margin-left: 5px;
     }
     .ume {
         font-size: 24px;
@@ -369,10 +374,23 @@ main{
         margin-bottom: 200px;
         font-size: 24px;
         color: white;
+        margin-left: -5px;
+    }
+    #searchbar {
+        border-radius: 20px;
+        border: 2px solid white;
+        padding-left: 15px;
+        display: flex;
+        margin: 0 auto; 
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 240px;
+        height: 50px; 
     }
     .info1 {
         margin-top: 150px;
         margin: 0 auto;
+        margin-left: 5px;
         text-align: center;
         width: 400px;
     }
