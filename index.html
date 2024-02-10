@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>P-23</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -10,12 +11,32 @@
     <header>
             <a id="logo" href="index.html">Главная</a>
                 <nav id="mainnav">
-                    <ul>
+                    <ul class="litop">
                         <li><a href="umeni.html">Мои навыки</a></li>
                         <li><a href="raboti.html">Мои работы</a></li>
                     </ul>
+                    <div class="toggle_btn">
+                        <i class="fa-solid fa-bars" id="toggle_btn"></i>
+                    </div>
+                    <div class="dropdown_menu">
+                        <li><a href="umeni.html">Мои навыки</a></li>
+                        <li><a href="raboti.html">Мои работы</a></li>
+                    </div>
                 </nav>
     </header>
+    <script>
+        const togglebtn = document.querySelector('.toggle_btn')
+        const togglebtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        togglebtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+            togglebtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+        }
+    </script>
     <main>
         <div class="info1">
             <h1 class="i"><a href="https://vk.com/andrey16000" target="_blank" class="i2">Создатель данного сайта</a></h1>
@@ -39,7 +60,7 @@
                 </div>
                 <div class="form">
                     <p class="tex">Ссылка на макет</p>
-                    <input class="inp" type="name" name="figma" placeholder="Введите ссылку на ваш макет">
+                    <input class="inp" type="name" name="figma" placeholder="Введите ваш макет">
                 </div>
                 <div class="form">
                     <p class="tex">До какого числа нужно сделать</p>
@@ -62,5 +83,6 @@
     <footer>
 
     </footer>
+    
 </body>
 </html>
