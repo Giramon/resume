@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <script type="text/javascript" src="js/script.js"></script>
     <header>
         <a id="logo" href="index.html">Главная</a>
             <nav id="mainnav">
@@ -42,6 +43,10 @@
             <h1 class="i">На данной странице приведены мои работы, которые я делал в учебном процессе, а так же в самонаписании</h1>
             <p class="t1">Вы можете воспользоваться поисковой строкой, чтобы найти то, что вас интересует</p>
         </div>
+        <input id="searchbar"
+        onkeyup="search_animal()"
+        type="text" name="search"
+        placeholder="Поиск">
         <div class="flex-container">
             <div class="flex-elem">
                 <img src="img/tilda1.jpg" class="photo" alt="rabota">
